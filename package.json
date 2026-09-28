@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/signflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sign CSV/TSV flux tables for quick inspection and cleanup.",
+  "bin": {
+    "signflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/signflux.git"
+  },
+  "homepage": "https://theworker02.github.io/signflux/",
+  "keywords": [
+    "sign",
+    "flux",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
